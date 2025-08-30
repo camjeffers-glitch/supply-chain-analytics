@@ -1,43 +1,52 @@
-# Supply Chain Analytics Dashboard
+# Supply Chain Analytics Project
 
-This project simulates a **consulting-style engagement** where the goal is to help a client identify inefficiencies in their supply chain using **Python** and **SQL**.
+I created this project to practice using **Python** and **SQL** in the context of supply chain problems. The idea is to take a dataset that looks like real client data (orders, lead times, fulfillment status) and turn it into insights a consultant might deliver. 
 
-## 🚀 Project Goals
-- Create a database of orders, shipments, and inventory.
-- Use **SQL** to calculate supply chain KPIs:
-  - Inventory turnover
-  - Fill rate
-  - Average lead time
-- Build **Python scripts** to analyze demand trends and forecast future needs.
-- Visualize the results in an interactive dashboard (Streamlit).
+---
 
-## 📊 Example Business Case
-A logistics client is struggling with delayed shipments and high inventory costs.  
-This project shows how analytics can:
-- Identify bottlenecks
-- Recommend process improvements
-- Quantify cost savings
+## Why I Built This
+I’m interested in supply chain consulting, and I wanted a hands-on way to show I can connect technical tools with business impact. This project is a starting point for analyzing supply chain KPIs and building a foundation for client-ready dashboards.
 
-## 🛠️ Tools Used
-- **SQL (SQLite/PostgreSQL)** → for querying KPIs
-- **Python (Pandas, Matplotlib, Plotly)** → for data cleaning & visualization
-- **Streamlit** → for the dashboard
-- **Jupyter Notebooks** → for documenting analysis
+---
 
-## 📂 Project Layout
-- `data/` → sample datasets
-- `sql/` → SQL queries for KPIs
-- `notebooks/analysis.ipynb` → step-by-step Python analysis
-- `app.py` → Streamlit dashboard
-- `README.md` → project overview (this file)
+## What’s Inside
+- **data/** → `sample_orders.csv` (mock dataset of 200 orders, 5 products, lead times, fulfillment status)  
+- **sql/** → basic SQL queries for KPIs like average lead time and fill rate  
+- **notebooks/** → a Jupyter Notebook that loads the data, runs SQL queries, and visualizes the results  
+- **app.py** → placeholder for a Streamlit dashboard I plan to build later  
 
-## 🗓️ Timeline
-- Week 1: Load dataset, run SQL KPIs (✅ complete)
-- Month 1: Python analysis of KPIs & demand forecasting
-- Month 2: Build Streamlit dashboard
-- Month 3–4: Polish, add more datasets, refine presentation
+---
 
-## ✅ Current Status
-✔️ Database created and connected  
-✔️ SQL queries running for KPIs  
-🔄 Expanding into Python analysis (in progress)
+## Current Progress
+- Loaded dataset into a SQL database  
+- Built queries for key KPIs  
+- Created first visualizations in Python  
+- Next step: interactive dashboard for client-style presentations  
+
+---
+
+## Example Output
+The notebook currently shows:
+- Average lead time per product (visualized in a bar chart)  
+- Order volumes by product  
+- Fulfillment performance  
+
+---
+
+## Tools I’m Using
+- **Python (Pandas, Matplotlib)** for analysis and visualization  
+- **SQL (SQLite)** for queries  
+- **Streamlit** (planned) for dashboards  
+
+---
+
+## Next Steps
+I want to:
+1. Add more KPIs (inventory turnover, cost per order).  
+2. Build the Streamlit app so results are interactive.  
+3. Expand the dataset to mimic a larger supply chain (warehouses, suppliers, etc.).  
+
+---
+
+## License
+MIT License — open to share and learn from.  
